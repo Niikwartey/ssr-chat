@@ -1,0 +1,121 @@
+.Post {
+  margin: 0 15% 30px 0;
+  font-weight: 500;
+  color: var(--primary-purple);
+  display: flex;
+}
+
+.Post .avatar {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.Post .contentWrapper {
+  margin: 0 3%;
+}
+
+.Post .metadata {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  margin-bottom: 8px;
+}
+
+.Post .metadata .user {
+  margin-right: 20px;
+}
+
+.Post .metadata .divider {
+  margin: 0 3px;
+}
+
+.Post .metadata .username a {
+  color: var(--primary-purple);
+  text-decoration: none;
+}
+
+.Post .metadata .verified {
+  width: 10px;
+  height: 10px;
+  stroke: var(--primary-green);
+  margin: 0 2px;
+}
+
+.Post .message {
+  word-break: break-word;
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.Post .activeDate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.Post .activeDate .icon {
+  width: 13px;
+  stroke: #ffffff;
+}
+
+.Post .activeDate > span {
+  margin-left: 8px;
+}
+
+/**** CURRENT USER POST STYLE ****/
+
+.Post.byCurrentUser {
+  direction: rtl;
+  margin: 0 0 20px 15%;
+}
+
+.Post.byCurrentUser * {
+  direction: ltr;
+}
+
+.Post.byCurrentUser .metadata {
+  direction: rtl;
+}
+
+.Post.byCurrentUser .avatarWrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%; 
+  background-color: var(--primary-purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Post.byCurrentUser .avatar {
+  width: 20px;
+  border-radius: 0;
+}
+
+.Post.byCurrentUser .message {
+  background-color: var(--primary-green);
+  color: #ffffff;
+}
+
+/*+++ Small screen styles +++*/
+
+@media screen and (max-width: 480px) {
+  .Post .metadata {
+    flex-wrap: wrap;
+    line-height: 15px;
+  }
+
+  .Post .activeDate {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,36 @@
+.InputBox {
+  display: flex;
+  border-top: 1px solid var(--primary-green);
+  align-items: center;
+}
+
+.InputBox .charactersLeft {
+  color: var(--secondary-gray);
+  font-size: 12px;
+}
+
+.InputBox .textForm {
+  flex-grow: 1;
+  display: flex;
+}
+
+.InputBox .textBox::placeholder {
+  color: var(--secondary-gray);
+}
+
+.InputBox .textBox {
+  flex-grow: 1;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+}
+
+.InputBox .submit {
+  stroke: var(--secondary-gray);
+}
+
+.submit:hover {
+  stroke: var(--primary-green);
+}

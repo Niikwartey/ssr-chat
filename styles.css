@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px 20px 60px;
+  max-width: 680px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-top: 50px;
+  color: var(--primary-purple); 
+}
+
+/***** CONSTANTS *****/
+:root {
+  --primary-green: #15d1a5;
+  --primary-purple: #291843;
+  --secondary-gray: #aaaaaa;
+}

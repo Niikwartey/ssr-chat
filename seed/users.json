@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "username": "marymeeker",
+    "real_name": "Mary Meeker",
+    "created_at": 1337774512,
+    "verified": true
+  },
+  {
+    "id": 2,
+    "username": "ConanOBrien",
+    "real_name": "Conan O'Brien",
+    "created_at": 1237774512,
+    "verified": true
+  },
+  {
+    "id": 3,
+    "username": "baratunde",
+    "real_name": "Baratunde",
+    "created_at": 1334774512,
+    "verified": false
+  }
+]
