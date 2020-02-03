@@ -1,4 +1,4 @@
 ## Instructions to run
 
-* run npm install
-* run npm run dev
+* run `npm install`
+* run `npm run dev`
